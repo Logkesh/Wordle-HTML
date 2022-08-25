@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right, rgb(12, 20, 69), rgb(8, 8, 50), rgb(13, 2, 31));
+}
+
+h1{
+    color:bisque;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 35px;
+    background-color: black;
+    margin: 1px;
+}
+
+button{
+    margin: 3px;
+}
+
+.cell{
+    background-color: rgb(17, 69, 9);
+}
+
+#result{
+    color: azure;
+}
