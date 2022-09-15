@@ -78,16 +78,16 @@ function enter() {
             wordle[row-1][i][1] = "black";
             for(let j = 0; j < 5; j++)
             {
-                if (temp_sol[i] == re[j][0])
+                if (temp_sol[j] == re[i][0])
                 {
                     if(i==j)
                     {
-                        wordle[row-1][j][1] = "green";
+                        wordle[row-1][i][1] = "green";
                         break;
                     }
                     else
                     {
-                        wordle[row-1][j][1] = "goldenrod";
+                        wordle[row-1][i][1] = "goldenrod";
                         break;
                     }
                 }
